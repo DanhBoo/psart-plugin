@@ -1,4 +1,4 @@
-<a id="top"></a><p align="right"><b>English</b> · <a href="README.vi.md">Tiếng Việt</a></p>
+<a id="top"></a>
 
 <h1 align="center">PSArt + YourManager for Photoshop</h1>
 
@@ -11,15 +11,15 @@
 - **Clean** AI images and remove plain backgrounds
 - **Find** the PSD behind any exported image
 
-<p align="center"><a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/PSArt_1.5.0.zip"><img alt="Download PSArt 1.5.0" src="https://img.shields.io/badge/Download-PSArt%201.5.0-2ea44f?style=for-the-badge"></a> <a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/YourManager_0.3.2.zip"><img alt="Download YourManager 0.3.2" src="https://img.shields.io/badge/Download-YourManager%200.3.2-1f6feb?style=for-the-badge"></a></p>
+<p align="center"><a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/PSArt_1.5.1.zip"><img alt="Download PSArt 1.5.1" src="https://img.shields.io/badge/Download-PSArt%201.5.1-2ea44f?style=for-the-badge"></a> <a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/YourManager_0.3.3.zip"><img alt="Download YourManager 0.3.3" src="https://img.shields.io/badge/Download-YourManager%200.3.3-1f6feb?style=for-the-badge"></a></p>
 
 Windows only, Photoshop 2023 or later. Pictures come from the plugins' own engines on test images.
 
 ## Install
 
-### PSArt 1.5.0
+### PSArt 1.5.1
 
-Download: **[PSArt_1.5.0.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/PSArt_1.5.0.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
+Download: **[PSArt_1.5.1.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/PSArt_1.5.1.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
 
 1. Close Photoshop and delete any older copy in `Plug-ins` ("PSArtCodex", "PSArt Codex" or "PSArt").
 2. Right-click the zip > Properties > tick **Unblock** > OK, then extract it.
@@ -28,9 +28,9 @@ Download: **[PSArt_1.5.0.zip](https://github.com/DanhBoo/psart-plugin/releases/d
 
 Full install steps: [CAI_DAT_PSArt.txt](CAI_DAT_PSArt.txt)
 
-### YourManager 0.3.2
+### YourManager 0.3.3
 
-Download: **[YourManager_0.3.2.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/YourManager_0.3.2.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
+Download: **[YourManager_0.3.3.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/YourManager_0.3.3.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
 
 1. Close Photoshop; delete any older YourManager in Plug-ins.
 2. Copy the `ptsplugin` folder from the zip into `C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\`.
@@ -77,13 +77,13 @@ Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 
 <a id="psart"></a>
 
-## PSArt 1.5.0
+## PSArt 1.5.1
 
 **One Photoshop panel: split layers, vector lineart, clean AI images, perspective grids, Codex chat.**
 
 Heavy tools run in the background. Hover any control for a short Help box.
 
-<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/PSArt_1.5.0.zip"><img alt="Download PSArt 1.5.0" src="https://img.shields.io/badge/Download-PSArt%201.5.0-2ea44f?style=for-the-badge"></a>
+<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/PSArt_1.5.1.zip"><img alt="Download PSArt 1.5.1" src="https://img.shields.io/badge/Download-PSArt%201.5.1-2ea44f?style=for-the-badge"></a>
 
 ### Layer Tools
 
@@ -373,13 +373,13 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 <a id="ym"></a>
 
-## YourManager 0.3.2
+## YourManager 0.3.3
 
 **Every version of your PSD files in one list per project, even after rename, copy or move.**
 
 A small project code is saved inside each PSD, so the panel still knows the file after you rename or move it. Everything stays on your PC.
 
-<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/YourManager_0.3.2.zip"><img alt="Download YourManager 0.3.2" src="https://img.shields.io/badge/Download-YourManager%200.3.2-2ea44f?style=for-the-badge"></a>
+<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/YourManager_0.3.3.zip"><img alt="Download YourManager 0.3.3" src="https://img.shields.io/badge/Download-YourManager%200.3.3-2ea44f?style=for-the-badge"></a>
 
 ### Projects
 
@@ -526,25 +526,15 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 ## What's new
 
-### PSArt 1.5.0
+### PSArt 1.5.1
 
-- Heavy tools run in the background, one bar per task.
+- Lighter while you work: the Codex bridge starts only when you open the Codex tab. ([→](#psart-codex))
 
-- New layout: icon tabs, one card per tool, Help box under your mouse.
+- Fixed: strokes painted while Fill was working could be wiped.
 
-  <img src="docs/media/psart/panel_lineart.png" alt="Lineart tab" width="480">
+### YourManager 0.3.3
 
-- Clearer names; Select moved to the Lineart tab. ([→](#psart-selectcard))
-
-- The Codex tab works like a chat page. ([→](#psart-codex))
-
-### YourManager 0.3.2
-
-- Find no longer needs Python. ([→](#ym-find))
-
-- **Not in this project** moves files into a new project. ([→](#ym-projects))
-
-- Find results are shorter: **Best match** and **Newest**. ([→](#ym-find))
+- Lighter while you work: the image finder closes itself after 10 minutes idle. ([→](#ym-find))
 
 ## FAQ
 

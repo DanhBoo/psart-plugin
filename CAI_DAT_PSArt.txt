@@ -1,4 +1,4 @@
-﻿PSArt 1.5.0 - CÀI ĐẶT (Windows, Photoshop 2023 bản 24.2 trở lên)
+﻿PSArt 1.5.1 - CÀI ĐẶT (Windows, Photoshop 2023 bản 24.2 trở lên)
 
 1. Tắt Photoshop.
 2. Đã cài bản cũ thì xoá thư mục cũ trong Plug-ins trước ("PSArtCodex" / "PSArt Codex" / "PSArt").
@@ -6,7 +6,7 @@
 3. Zip tải từ mạng: chuột phải file zip > Properties > tick "Unblock" > OK, rồi mới giải nén.
 4. Chép thư mục "PSArt" (trong zip) vào:  C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\
    Windows hỏi quyền admin thì bấm Continue.
-   Đúng:  ...\Plug-ins\PSArt\manifest.json     Sai:  ...\Plug-ins\PSArt_1.5.0\PSArt\manifest.json
+   Đúng:  ...\Plug-ins\PSArt\manifest.json     Sai:  ...\Plug-ins\PSArt_1.5.1\PSArt\manifest.json
 5. Mở Photoshop > menu Plugins > PSArt.
 6. Photoshop hỏi "Request For Permission ... start_bridge.vbs" (chương trình nối của tab Codex):
    tick "Remember my choice" rồi bấm Allow.
@@ -19,7 +19,7 @@ Gỡ: tắt Photoshop, xoá thư mục Plug-ins\PSArt.
 Lỗi: chép nguyên dòng chữ ở cuối panel + phiên bản Photoshop gửi lại.
 
 ---------------------------------------------------------------- ENGLISH
-PSArt 1.5.0 - INSTALL (Windows, Photoshop 2023 version 24.2 or later)
+PSArt 1.5.1 - INSTALL (Windows, Photoshop 2023 version 24.2 or later)
 
 1. Close Photoshop.
 2. Remove any older copy from Plug-ins first ("PSArtCodex" / "PSArt Codex" / "PSArt"): same plugin ID.
