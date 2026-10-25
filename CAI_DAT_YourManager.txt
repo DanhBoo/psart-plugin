@@ -1,4 +1,4 @@
-﻿YourManager 0.3.1 - CÀI ĐẶT (bản này chỉ có plugin Photoshop; Windows; Photoshop 2023 bản 24.0 trở lên)
+﻿YourManager 0.3.2 - CÀI ĐẶT (bản này chỉ có plugin Photoshop; Windows; Photoshop 2023 bản 24.0 trở lên)
 
 PHOTOSHOP
 1. Tắt Photoshop. Đã cài bản cũ thì xoá thư mục cũ trong Plug-ins trước (cùng ID).
@@ -6,17 +6,15 @@ PHOTOSHOP
    Windows hỏi quyền admin thì bấm Continue.   Đúng:  ...\Plug-ins\ptsplugin\manifest.json
 3. Mở Photoshop > menu Plugins > YourManager. Mặc định tiếng Anh; đổi ở Settings > Language.
 4. Lần đầu dùng Find / Delete, Photoshop hỏi quyền chạy file .vbs của plugin: bấm Allow.
-5. Tab Find (Scan IDs, tìm PSD từ ảnh) cần Python 3.10+ trên máy:
-   - cài từ python.org, tick "Add python.exe to PATH";
-   - mở cmd, chạy:  pip install numpy opencv-python pillow
-   Không có Python: các tab khác vẫn chạy; Find báo không khởi động được (có thể hiện thêm hộp lỗi script).
+5. Không cần cài Python: tab Find (Scan IDs, tìm PSD từ ảnh) có sẵn chương trình riêng trong ptsplugin\helper\ym_image_source.
+   Phần mềm diệt virus hỏi về ym_image_source.exe thì cho phép (chỉ chạy trên máy, không ra internet).
 
 Gỡ: tắt Photoshop, xoá Plug-ins\ptsplugin.
 Dữ liệu dự án nằm ở %APPDATA%\YourManager (xoá nếu muốn gỡ sạch).
 Cách dùng: HUONG_DAN.txt (tiếng Việt), README.txt (tiếng Anh).
 
 ---------------------------------------------------------------- ENGLISH
-YourManager 0.3.1 - INSTALL (Photoshop plugin only; Windows; Photoshop 2023 / 24.0 or later)
+YourManager 0.3.2 - INSTALL (Photoshop plugin only; Windows; Photoshop 2023 / 24.0 or later)
 
 PHOTOSHOP
 1. Close Photoshop. Remove any older copy from Plug-ins first (same plugin ID).
@@ -24,9 +22,8 @@ PHOTOSHOP
    Right:  ...\Plug-ins\ptsplugin\manifest.json
 3. Open Photoshop > Plugins menu > YourManager (English by default; Settings > Language).
 4. First use of Find / Delete: Photoshop asks to run the plugin's .vbs file - click Allow.
-5. The Find tab (Scan IDs, find a PSD from an image) needs Python 3.10+:
-   install from python.org with "Add python.exe to PATH", then in cmd:  pip install numpy opencv-python pillow
-   Without Python the other tabs still work; Find says it could not start (a script error box may show).
+5. No Python needed: the Find tab (Scan IDs, find a PSD from an image) brings its own program in ptsplugin\helper\ym_image_source.
+   If your antivirus asks about ym_image_source.exe, allow it (it runs on this PC only, no internet).
 
 Uninstall: close Photoshop, delete Plug-ins\ptsplugin.
 Usage: README.txt (English), HUONG_DAN.txt (Vietnamese).
