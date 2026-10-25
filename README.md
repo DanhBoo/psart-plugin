@@ -10,6 +10,44 @@
 
 Both run on Windows inside Photoshop 2023 or later. The pictures below come from the plugins' own engines run on test images; panel pictures are marked when they are drawn from a test page instead of a Photoshop screenshot.
 
+## Install
+
+### PSArt 1.5.0
+
+Download: **[PSArt_1.5.0.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/PSArt_1.5.0.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
+
+1. Close Photoshop and delete any older copy in `Plug-ins` ("PSArtCodex", "PSArt Codex" or "PSArt").
+2. Right-click the zip > Properties > tick **Unblock** > OK, then extract it.
+3. Copy the `PSArt` folder into `C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\` (it must end as `Plug-ins\PSArt\manifest.json`).
+4. Open Photoshop > **Plugins** > **PSArt**. When asked about `start_bridge.vbs` (the Codex tab's bridge), tick *Remember my choice* and click **Allow**, or **Deny** if you do not use Codex.
+
+Full install steps: [CAI_DAT_PSArt.txt](CAI_DAT_PSArt.txt)
+
+### YourManager 0.3.2
+
+Download: **[YourManager_0.3.2.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/YourManager_0.3.2.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
+
+1. Close Photoshop. If an older YourManager is in Plug-ins, delete that folder first.
+2. Copy the `ptsplugin` folder from the zip into `C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\` (click Continue if Windows asks for admin rights).
+3. Open Photoshop > **Plugins** > **YourManager**. The panel is in English; switch in **Settings > Language**.
+4. The first time you use Find or Delete, Photoshop asks to run the plugin's .vbs file: click **Allow**. If your antivirus asks about `ym_image_source.exe`, allow it (it runs on this PC only).
+
+Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
+
+## Requirements
+
+**PSArt**
+
+- Windows 10 / 11
+- Photoshop 2023 (24.2) or later
+- Codex tab only: the Codex app (or `npm i -g @openai/codex`) signed in with a ChatGPT account. No Node.js needed.
+
+**YourManager**
+
+- Windows 10 / 11
+- Photoshop 2023 (24.0) or later
+- No Python needed: the Find tab brings its own small program (ym_image_source.exe).
+
 ## Features at a glance
 
 | Tool | Tab | What it does |
@@ -536,40 +574,6 @@ When you save (Ctrl+S, Save As, Save a Copy) a file that is not the top version,
 - Tick **Don't ask again** to stop the question; turn it back on in **Settings > Notifications**.
 
 <p align="right"><a href="#top">back to top</a></p>
-
-## Requirements
-
-**PSArt**
-
-- Windows 10 / 11
-- Photoshop 2023 (24.2) or later
-- Codex tab only: the Codex app (or `npm i -g @openai/codex`) signed in with a ChatGPT account. No Node.js needed.
-
-**YourManager**
-
-- Windows 10 / 11
-- Photoshop 2023 (24.0) or later
-- No Python needed: the Find tab brings its own small program (ym_image_source.exe).
-
-## Install
-
-### PSArt
-
-1. Close Photoshop and delete any older copy in `Plug-ins` ("PSArtCodex", "PSArt Codex" or "PSArt").
-2. Right-click the zip > Properties > tick **Unblock** > OK, then extract it.
-3. Copy the `PSArt` folder into `C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\` (it must end as `Plug-ins\PSArt\manifest.json`).
-4. Open Photoshop > **Plugins** > **PSArt**. When asked about `start_bridge.vbs` (the Codex tab's bridge), tick *Remember my choice* and click **Allow**, or **Deny** if you do not use Codex.
-
-Full install steps: [CAI_DAT_PSArt.txt](CAI_DAT_PSArt.txt)
-
-### YourManager
-
-1. Close Photoshop. If an older YourManager is in Plug-ins, delete that folder first.
-2. Copy the `ptsplugin` folder from the zip into `C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\` (click Continue if Windows asks for admin rights).
-3. Open Photoshop > **Plugins** > **YourManager**. The panel is in English; switch in **Settings > Language**.
-4. The first time you use Find or Delete, Photoshop asks to run the plugin's .vbs file: click **Allow**. If your antivirus asks about `ym_image_source.exe`, allow it (it runs on this PC only).
-
-Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 
 ## What's new
 

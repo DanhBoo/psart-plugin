@@ -10,6 +10,44 @@
 
 Cả hai chạy trên Windows, trong Photoshop 2023 trở lên. Hình minh hoạ bên dưới là kết quả thật của chính các công cụ chạy trên ảnh thử; ảnh panel nào dựng từ trang thử (không phải ảnh chụp Photoshop) đều có ghi chú.
 
+## Cài đặt
+
+### PSArt 1.5.0
+
+Tải: **[PSArt_1.5.0.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/PSArt_1.5.0.zip)** · [Mọi phiên bản](https://github.com/DanhBoo/psart-plugin/releases)
+
+1. Tắt Photoshop, xoá bản cũ trong `Plug-ins` ("PSArtCodex", "PSArt Codex" hoặc "PSArt").
+2. Chuột phải file zip > Properties > tick **Unblock** > OK, rồi giải nén.
+3. Chép thư mục `PSArt` vào `C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\` (đúng là `Plug-ins\PSArt\manifest.json`).
+4. Mở Photoshop > **Plugins** > **PSArt**. Hộp hỏi quyền `start_bridge.vbs` (chương trình nối của tab Codex): tick *Remember my choice* rồi bấm **Allow**; không dùng Codex thì bấm **Deny** cũng được.
+
+Hướng dẫn cài đầy đủ: [CAI_DAT_PSArt.txt](CAI_DAT_PSArt.txt)
+
+### YourManager 0.3.2
+
+Tải: **[YourManager_0.3.2.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.25/YourManager_0.3.2.zip)** · [Mọi phiên bản](https://github.com/DanhBoo/psart-plugin/releases)
+
+1. Tắt Photoshop. Đã có bản YourManager cũ trong Plug-ins thì xoá thư mục đó trước.
+2. Chép thư mục `ptsplugin` trong zip vào `C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\` (Windows hỏi quyền admin thì bấm Continue).
+3. Mở Photoshop > **Plugins** > **YourManager**. Panel mặc định tiếng Anh; đổi ở **Settings > Language** (chọn Tiếng Việt).
+4. Lần đầu dùng Tìm hoặc Xoá file, Photoshop hỏi quyền chạy file .vbs của plugin: bấm **Allow**. Phần mềm diệt virus hỏi về `ym_image_source.exe` thì cho phép (chỉ chạy trên máy).
+
+Hướng dẫn cài đầy đủ: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
+
+## Yêu cầu hệ thống
+
+**PSArt**
+
+- Windows 10 / 11
+- Photoshop 2023 (bản 24.2) trở lên
+- Riêng tab Codex: Codex đã cài (app Codex hoặc `npm i -g @openai/codex`) và đăng nhập bằng tài khoản ChatGPT. Không cần Node.js.
+
+**YourManager**
+
+- Windows 10 / 11
+- Photoshop 2023 (bản 24.0) trở lên
+- Không cần Python: tab Tìm có sẵn chương trình riêng (ym_image_source.exe).
+
 ## Tính năng tóm tắt
 
 | Công cụ | Tab | Làm gì |
@@ -536,40 +574,6 @@ Khi bạn lưu (Ctrl+S, Save As, Save a Copy) một file không phải version t
 - Tick **Không hỏi lại** để thôi hỏi; bật lại ở **Cài đặt > Thông báo**.
 
 <p align="right"><a href="#top">lên đầu trang</a></p>
-
-## Yêu cầu hệ thống
-
-**PSArt**
-
-- Windows 10 / 11
-- Photoshop 2023 (bản 24.2) trở lên
-- Riêng tab Codex: Codex đã cài (app Codex hoặc `npm i -g @openai/codex`) và đăng nhập bằng tài khoản ChatGPT. Không cần Node.js.
-
-**YourManager**
-
-- Windows 10 / 11
-- Photoshop 2023 (bản 24.0) trở lên
-- Không cần Python: tab Tìm có sẵn chương trình riêng (ym_image_source.exe).
-
-## Cài đặt
-
-### PSArt
-
-1. Tắt Photoshop, xoá bản cũ trong `Plug-ins` ("PSArtCodex", "PSArt Codex" hoặc "PSArt").
-2. Chuột phải file zip > Properties > tick **Unblock** > OK, rồi giải nén.
-3. Chép thư mục `PSArt` vào `C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\` (đúng là `Plug-ins\PSArt\manifest.json`).
-4. Mở Photoshop > **Plugins** > **PSArt**. Hộp hỏi quyền `start_bridge.vbs` (chương trình nối của tab Codex): tick *Remember my choice* rồi bấm **Allow**; không dùng Codex thì bấm **Deny** cũng được.
-
-Hướng dẫn cài đầy đủ: [CAI_DAT_PSArt.txt](CAI_DAT_PSArt.txt)
-
-### YourManager
-
-1. Tắt Photoshop. Đã có bản YourManager cũ trong Plug-ins thì xoá thư mục đó trước.
-2. Chép thư mục `ptsplugin` trong zip vào `C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\` (Windows hỏi quyền admin thì bấm Continue).
-3. Mở Photoshop > **Plugins** > **YourManager**. Panel mặc định tiếng Anh; đổi ở **Settings > Language** (chọn Tiếng Việt).
-4. Lần đầu dùng Tìm hoặc Xoá file, Photoshop hỏi quyền chạy file .vbs của plugin: bấm **Allow**. Phần mềm diệt virus hỏi về `ym_image_source.exe` thì cho phép (chỉ chạy trên máy).
-
-Hướng dẫn cài đầy đủ: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 
 ## Có gì mới
 
