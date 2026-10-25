@@ -57,7 +57,7 @@ Tách một phần layer ra layer riêng, xuất ảnh đi sửa rồi thay lạ
 
 *Khoanh một phần tranh, nhấc nó lên layer riêng, chỗ trống phía sau được tự lấp.*
 
-<p align="center"><img src="docs/media/psart/sepRun.gif" alt="Mái vòm được khoanh trượt lên layer riêng, chỗ trống phía sau được lấp" width="720"></p>
+<p align="center"><img src="docs/media/psart/sepRun.gif" alt="Nhân vật được khoanh thành layer riêng, chỗ trống để lại được lấp bằng màu nền xung quanh" width="720"></p>
 
 Phần được khoanh sang layer mới "… separate" ở trên. Layer bên dưới được lấp vùng bị che bằng màu dịu lấy từ xung quanh, nên dời, đổi màu hay làm chuyển động phần đó không để lại lỗ trống.
 
@@ -135,7 +135,7 @@ Nét raster được dò lại thành tối đa 4 layer vector xếp chồng nh�
 
 *Nối nét đứt và làm mượt nét run, ngay trên layer nét của bạn.*
 
-<p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines làm đều một nét run trong vùng khoanh" width="720"></p>
+<p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines, phóng to: nét run, dày mỏng không đều thành nét mượt, đều" width="720"></p>
 
 <p align="center"><img src="docs/media/psart/joinRun.gif" alt="Join line nối chỗ đứt trên nét" width="720"></p>
 
@@ -162,7 +162,7 @@ Nét raster được dò lại thành tối đa 4 layer vector xếp chồng nh�
 
 *Làm nét mảnh hơn hoặc dày hơn chỉ bằng một cú bấm, đều cả hai bên.*
 
-<p align="center"><img src="docs/media/psart/weight.gif" alt="Nét dày dần rồi mảnh dần qua từng lần bấm" width="720"></p>
+<p align="center"><img src="docs/media/psart/weight.gif" alt="Nét khuôn mặt dày thêm 0.5 px mỗi lần bấm, rồi mảnh đi" width="720"></p>
 
 Áp lên layer đang chọn, trong vùng chọn hoặc cả layer. Mỗi lần bấm cộng dồn và là một bước Undo; nét mảnh dừng ở khoảng 1-2 px chứ không biến mất.
 
@@ -178,7 +178,7 @@ Nét raster được dò lại thành tối đa 4 layer vector xếp chồng nh�
 
 *Biến một vòng khoanh ẩu thành vùng chọn sạch ôm sát nét, tô màu được ngay.*
 
-<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="Vòng khoanh ẩu trên má bám vào các vùng giữa nét" width="720"></p>
+<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="Vòng khoanh ẩu trên một phần vùng được nới ra tới các nét bao quanh" width="720"></p>
 
 Select đọc lineart đang chọn ở Extract Lines và chọn các vùng giữa nét mà vòng khoanh phủ lên, giống Magic Wand nhưng hiểu cả chỗ nét hở.
 
@@ -252,7 +252,7 @@ Dành cho ảnh trên nền trơn hoặc chuyển màu nhẹ (thường gặp �
 
 *Làm mượt nét của tranh màu mà màu vẫn giữ nguyên.*
 
-<p align="center"><img src="docs/media/psart/cfixRun.gif" alt="Trước và sau Smooth trên một hoa văn tô màu" width="720"></p>
+<p align="center"><img src="docs/media/psart/cfixRun.gif" alt="Smooth trên nét lông vũ tô màu, phóng to: nét gồ ghề đều lại, màu giữ nguyên" width="720"></p>
 
 Cùng kiểu làm mượt như Smooth Lines, dành cho nét nằm trong tranh màu. Không xoá gì; không có vùng chọn thì làm cả layer.
 

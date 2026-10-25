@@ -57,7 +57,7 @@ Cut a part of a layer onto its own layer, export / replace images.
 
 *Lasso a part of a painting and lift it onto its own layer, with the hole behind it filled in.*
 
-<p align="center"><img src="docs/media/psart/sepRun.gif" alt="A lassoed dome slides onto its own layer; the hole behind it is filled" width="720"></p>
+<p align="center"><img src="docs/media/psart/sepRun.gif" alt="A lassoed character becomes its own layer; the hole it leaves is filled from the background around it" width="720"></p>
 
 The selected part goes to a new layer "… separate" above. The layer underneath gets the hidden area filled with soft colors taken from around it, so you can move, recolor or animate the part without leaving a gap.
 
@@ -135,7 +135,7 @@ Your raster lines are traced into up to 4 vector layers stacked like the origina
 
 *Join broken strokes and smooth wobbly ones, right on your line layer.*
 
-<p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines evens a wobbly line inside a lasso" width="720"></p>
+<p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines, zoomed in: a wobbly, uneven line becomes a smooth, even stroke" width="720"></p>
 
 <p align="center"><img src="docs/media/psart/joinRun.gif" alt="Join line bridges a gap in a line" width="720"></p>
 
@@ -162,7 +162,7 @@ Your raster lines are traced into up to 4 vector layers stacked like the origina
 
 *Make lines thinner or thicker in one click, evenly on both sides.*
 
-<p align="center"><img src="docs/media/psart/weight.gif" alt="A line gets thicker, then thinner, click by click" width="720"></p>
+<p align="center"><img src="docs/media/psart/weight.gif" alt="Lines of a face get thicker 0.5 px per click, then thinner" width="720"></p>
 
 Works on the selected layer(s), inside the selection or on the whole layer. Each click adds up and is one Undo step; thin lines stop at about 1-2 px instead of vanishing.
 
@@ -178,7 +178,7 @@ Works on the selected layer(s), inside the selection or on the whole layer. Each
 
 *Turn a rough lasso into a clean selection that hugs your lines, ready to paint.*
 
-<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="A rough lasso on a cheek snaps to the regions between the lines" width="720"></p>
+<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="A rough lasso over part of a region grows to the lines around it" width="720"></p>
 
 Select reads the lineart picked in Extract Lines and selects the regions between the lines that your lasso covers, like a Magic Wand that understands gaps in the lines.
 
@@ -252,7 +252,7 @@ Made for images on a flat or gently graded background (typical AI renders). The 
 
 *Smooth the lines of a color painting while the colors stay put.*
 
-<p align="center"><img src="docs/media/psart/cfixRun.gif" alt="Before and after Smooth on a painted ornament" width="720"></p>
+<p align="center"><img src="docs/media/psart/cfixRun.gif" alt="Smooth on painted feather lines, zoomed in: bumpy lines even out, the colors stay" width="720"></p>
 
 The same smoothing as Smooth Lines, for lines painted into a color image. Nothing is erased; without a selection the whole layer is smoothed.
 
