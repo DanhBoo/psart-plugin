@@ -1,0 +1,40 @@
+﻿YourManager 0.3.0 - CÀI ĐẶT (Windows; Photoshop 2023 bản 24.0 trở lên; Blender 4.2 trở lên)
+
+PHOTOSHOP
+1. Tắt Photoshop. Đã cài bản cũ thì xoá thư mục cũ trong Plug-ins trước (cùng ID).
+2. Chép thư mục "ptsplugin" (trong zip) vào:  C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\
+   Windows hỏi quyền admin thì bấm Continue.   Đúng:  ...\Plug-ins\ptsplugin\manifest.json
+3. Mở Photoshop > menu Plugins > YourManager. Mặc định tiếng Anh; đổi ở Settings > Language.
+4. Lần đầu dùng Find / Delete, Photoshop hỏi quyền chạy file .vbs của plugin: bấm Allow.
+5. Tab Find (Scan IDs, tìm PSD từ ảnh) cần Python 3.10+ trên máy:
+   - cài từ python.org, tick "Add python.exe to PATH";
+   - mở cmd, chạy:  pip install numpy opencv-python pillow
+   Không có Python: các tab khác vẫn chạy; Find báo không khởi động được (có thể hiện thêm hộp lỗi script).
+
+BLENDER
+6. Edit > Preferences > Get Extensions (hoặc Add-ons) > mũi tên góc phải trên > Install from Disk...
+   > chọn addonblender.zip (KHÔNG giải nén). Panel: cửa sổ 3D, phím N > tab Version.
+
+Gỡ: Photoshop - tắt Photoshop, xoá Plug-ins\ptsplugin. Blender - Preferences > Add-ons > YourManager > Uninstall.
+Dữ liệu dự án nằm ở %APPDATA%\YourManager (xoá nếu muốn gỡ sạch).
+Cách dùng: HUONG_DAN.txt (tiếng Việt), README.txt (tiếng Anh).
+
+---------------------------------------------------------------- ENGLISH
+YourManager 0.3.0 - INSTALL (Windows; Photoshop 2023 / 24.0 or later; Blender 4.2 or later)
+
+PHOTOSHOP
+1. Close Photoshop. Remove any older copy from Plug-ins first (same plugin ID).
+2. Copy the "ptsplugin" folder into  C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\  (admin: Continue).
+   Right:  ...\Plug-ins\ptsplugin\manifest.json
+3. Open Photoshop > Plugins menu > YourManager (English by default; Settings > Language).
+4. First use of Find / Delete: Photoshop asks to run the plugin's .vbs file - click Allow.
+5. The Find tab (Scan IDs, find a PSD from an image) needs Python 3.10+:
+   install from python.org with "Add python.exe to PATH", then in cmd:  pip install numpy opencv-python pillow
+   Without Python the other tabs still work; Find says it could not start (a script error box may show).
+
+BLENDER
+6. Edit > Preferences > Get Extensions (or Add-ons) > arrow at the top right > Install from Disk...
+   > pick addonblender.zip (do NOT unzip). Panel: 3D viewport, N > Version tab.
+
+Uninstall: delete Plug-ins\ptsplugin; Blender: Preferences > Add-ons > YourManager > Uninstall.
+Usage: README.txt (English), HUONG_DAN.txt (Vietnamese).

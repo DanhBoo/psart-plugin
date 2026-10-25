@@ -1,0 +1,37 @@
+﻿PSArt 1.5.0 - CÀI ĐẶT (Windows, Photoshop 2023 bản 24.2 trở lên)
+
+1. Tắt Photoshop.
+2. Đã cài bản cũ thì xoá thư mục cũ trong Plug-ins trước ("PSArtCodex" / "PSArt Codex" / "PSArt").
+   Bản mới cùng ID với bản cũ, để cả hai thì Photoshop nạp lỗi.
+3. Zip tải từ mạng: chuột phải file zip > Properties > tick "Unblock" > OK, rồi mới giải nén.
+4. Chép thư mục "PSArt" (trong zip) vào:  C:\Program Files\Adobe\Adobe Photoshop <năm>\Plug-ins\
+   Windows hỏi quyền admin thì bấm Continue.
+   Đúng:  ...\Plug-ins\PSArt\manifest.json     Sai:  ...\Plug-ins\PSArt_1.5.0\PSArt\manifest.json
+5. Mở Photoshop > menu Plugins > PSArt.
+6. Photoshop hỏi "Request For Permission ... start_bridge.vbs" (chương trình nối của tab Codex):
+   tick "Remember my choice" rồi bấm Allow.
+
+Tab Codex: cần Codex đã cài và đã đăng nhập bằng tài khoản ChatGPT trên máy này (app Codex, hoặc
+npm i -g @openai/codex). Không cần Node.js. Chấm xanh + email = đã nối; chưa thì bấm Connect.
+Không dùng Codex thì bỏ qua tab Codex, các tab khác vẫn dùng bình thường (hộp hỏi quyền bấm Deny cũng được).
+
+Gỡ: tắt Photoshop, xoá thư mục Plug-ins\PSArt.
+Lỗi: chép nguyên dòng chữ ở cuối panel + phiên bản Photoshop gửi lại.
+
+---------------------------------------------------------------- ENGLISH
+PSArt 1.5.0 - INSTALL (Windows, Photoshop 2023 version 24.2 or later)
+
+1. Close Photoshop.
+2. Remove any older copy from Plug-ins first ("PSArtCodex" / "PSArt Codex" / "PSArt"): same plugin ID.
+3. Downloaded zip: right-click it > Properties > tick "Unblock" > OK, then extract.
+4. Copy the "PSArt" folder into  C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\  (admin: Continue).
+   Right:  ...\Plug-ins\PSArt\manifest.json
+5. Open Photoshop > Plugins menu > PSArt.
+6. Photoshop asks "Request For Permission ... start_bridge.vbs" (the Codex tab's bridge):
+   tick "Remember my choice", click Allow.
+
+Codex tab: needs Codex installed and signed in with a ChatGPT account on this PC (Codex app, or
+npm i -g @openai/codex). No Node.js needed. Green dot + email = connected; otherwise press Connect.
+Not using Codex? Ignore the Codex tab; the other tabs work normally (Deny on the prompt is fine too).
+
+Uninstall: close Photoshop, delete Plug-ins\PSArt.
