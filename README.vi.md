@@ -359,7 +359,7 @@ YourManager ghi một mã dự án nhỏ vào trong mỗi file PSD lúc bạn l�
 
 Mọi dự án và các version, mới nhất ở trên cùng.
 
-<p align="center"><img src="docs/media/ym/panel_projects.png" alt="Tab Dự án: bốn dự án mẫu, Character đang xổ với version v1 tới v4" width="360"></p>
+<p align="center"><img src="docs/media/ym/panel_projects_vi.png" alt="Tab Dự án: bốn dự án mẫu, Character đang xổ với version v1 tới v4" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -369,11 +369,11 @@ Mọi dự án và các version, mới nhất ở trên cùng.
 
 *Cứ lưu như thường - version mới tự nằm trên cùng dự án của nó.*
 
-<p align="center"><img src="docs/media/ym/versions_on_save.gif" alt="Save As character_v05.psd: v5 hiện trên cùng dự án Character" width="360"></p>
+<p align="center"><img src="docs/media/ym/versions_on_save_vi.gif" alt="Save As character_v05.psd: v5 hiện trên cùng dự án Character" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
-<p align="center"><img src="docs/media/ym/projects_menu.png" alt="Menu chuột phải của một dòng version" width="360"></p>
+<p align="center"><img src="docs/media/ym/projects_menu_vi.png" alt="Menu chuột phải của một dòng version" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -406,7 +406,7 @@ Mở một PSD rồi Ctrl+S: file thành version 1 của một dự án mới. S
 
 *Đổi tên, chép hay dời PSD đi đâu - file vẫn nhớ dự án và version của nó.*
 
-<p align="center"><img src="docs/media/ym/rename_keeps_id.gif" alt="Đổi tên character_v02.psd trong Explorer rồi mở: dòng thành character_lineart.psd, vẫn v2" width="360"></p>
+<p align="center"><img src="docs/media/ym/rename_keeps_id_vi.gif" alt="Đổi tên character_v02.psd trong Explorer rồi mở: dòng thành character_lineart.psd, vẫn v2" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -427,7 +427,7 @@ Mã dự án được lưu trong chính file PSD (phần thông tin file, không
 
 Tìm file PSD gốc từ một ảnh hoặc một file PSD khác.
 
-<p align="center"><img src="docs/media/ym/panel_find.png" alt="Tab Tìm sau khi thả một ảnh JPG đã xuất: ba file PSD khớp" width="360"></p>
+<p align="center"><img src="docs/media/ym/panel_find_vi.png" alt="Tab Tìm sau khi thả một ảnh JPG đã xuất: ba file PSD khớp" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -437,7 +437,7 @@ Tìm file PSD gốc từ một ảnh hoặc một file PSD khác.
 
 *Thả một ảnh JPG / PNG đã xuất, ra ngay file PSD gốc - và version mới nhất của nó.*
 
-<p align="center"><img src="docs/media/ym/find_from_image.gif" alt="Thả character_export.jpg vào Tìm: ra ba file PSD, bấm Mở nhảy tới character_v03.psd ở tab Dự án" width="360"></p>
+<p align="center"><img src="docs/media/ym/find_from_image_vi.gif" alt="Thả character_export.jpg vào Tìm: ra ba file PSD, bấm Mở nhảy tới character_v03.psd ở tab Dự án" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -464,7 +464,7 @@ Tìm đọc ID của file PSD / PSB và ảnh trong các thư mục quét một 
 
 Hoàn tác / làm lại từng bước plugin đã làm.
 
-<p align="center"><img src="docs/media/ym/panel_history.png" alt="Tab Lịch sử với ba thao tác, thao tác cuối đã hoàn tác" width="360"></p>
+<p align="center"><img src="docs/media/ym/panel_history_vi.png" alt="Tab Lịch sử với ba thao tác, thao tác cuối đã hoàn tác" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -490,7 +490,7 @@ Mỗi thay đổi plugin làm - xếp lại, đổi tên, dời file, đổi d�
 
 Thư mục quét, loại file, câu hỏi khi lưu, ngôn ngữ, làm mới dữ liệu.
 
-<p align="center"><img src="docs/media/ym/panel_settings.png" alt="Tab Cài đặt, mở cả bốn mục" width="360"></p>
+<p align="center"><img src="docs/media/ym/panel_settings_vi.png" alt="Tab Cài đặt, mở cả bốn mục" width="360"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -520,7 +520,7 @@ Bốn mục xổ ra được: **Thư mục & loại file quét**, **Thông báo*
 
 *Vừa lưu một version cũ? Một cú bấm là đưa nó lên trên cùng.*
 
-<p align="center"><img src="docs/media/ym/ask_on_save.png" alt="Hộp hỏi: Đây có phải version mới nhất? - Không / Có, đưa lên trên cùng" width="400"></p>
+<p align="center"><img src="docs/media/ym/ask_on_save_vi.png" alt="Hộp hỏi: Đây có phải version mới nhất? - Không / Có, đưa lên trên cùng" width="400"></p>
 
 <p align="center"><sub>ảnh panel dựng từ trang thử, không phải ảnh chụp Photoshop</sub></p>
 
@@ -599,7 +599,7 @@ Hướng dẫn cài đầy đủ: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.
 
 - Kết quả tìm gọn hơn: một dòng **Sát với hình**, bản mới nhất **Mới nhất**. ([→](#ym-find))
 
-  <img src="docs/media/ym/panel_find.png" alt="Kết quả tìm" width="480">
+  <img src="docs/media/ym/panel_find_vi.png" alt="Kết quả tìm" width="480">
 
 - Cài đặt > Dọn dẹp dữ liệu: một nút **Làm mới dữ liệu…**. ([→](#ym-settings))
 
