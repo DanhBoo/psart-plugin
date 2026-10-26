@@ -56,13 +56,13 @@ Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 
 | Tool | Tab | What it does |
 |---|---|---|
-| [Separate to New Layer](#psart-sepcard) | PSArt · Layer Tools | Lift a character onto its own layer; the scene behind it is filled in. |
+| [Separate to New Layer](#psart-sepcard) | PSArt · Layer Tools | One click: the character gets its own layer, and the scene behind is filled in. |
 | [Extract Lines](#psart-linecard) | PSArt · Lineart | Turn pixel lineart into vector layers that stay sharp at any zoom. |
 | [Repair](#psart-repaircard) | PSArt · Lineart | Join broken strokes and smooth wobbly ones. |
 | [Line weight **Beta**](#psart-weightcard) | PSArt · Lineart | Make lines thinner or thicker in one click. |
 | [Select](#psart-selectcard) | PSArt · Lineart | Lasso roughly; get a clean selection that hugs your lines. |
 | [Clean AI Image **Beta**](#psart-cleancard) | PSArt · Clean | Calm AI image noise: steady line color, smooth edges, clean colors. |
-| [Remove background](#psart-bgcard) | PSArt · Clean | Erase a plain background with a smooth edge, gaps included. |
+| [Remove background](#psart-bgcard) | PSArt · Clean | One click erases a plain background, with a smooth edge, gaps included. |
 | [Smooth Color Lines **Beta**](#psart-cfixcard) | PSArt · Clean | Smooth the lines of a color painting; colors stay put. |
 | [Perspective Grid](#psart-gridcard) | PSArt · Perspective | Draw a few rough strokes; get an even perspective grid. |
 | [Redraw on grid](#psart-redrawcard) | PSArt · Perspective | Redraw a loose sketch straight along your grid, with true perspective circles. |
@@ -98,9 +98,9 @@ Cut a part of a layer onto its own layer, export / replace images.
 
 #### Separate to New Layer
 
-*Lift a character onto its own layer; the scene behind it is filled in.*
+*One click: the character gets its own layer, and the scene behind is filled in.*
 
-<p align="center"><img src="docs/media/psart/sepRun.gif" alt="A girl lassoed in a café street scene moves to her own layer; the wall behind her is filled in" width="720"></p>
+<p align="center"><img src="docs/media/psart/sepRun.gif" alt="A girl lassoed in a café street scene is split into two layers; moved away, a plain cut leaves a hole while PSArt has filled the wall behind her" width="720"></p>
 
 **How to use**
 
@@ -128,7 +128,7 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 *Turn pixel lineart into vector layers that stay sharp at any zoom.*
 
-<p align="center"><img src="docs/media/psart/lineRun.gif" alt="A pencil-style scan: original, Photoshop Magic Wand (simulated) keeping paper and white halos, PSArt vector lines; whole figure, then zoomed" width="720"></p>
+<p align="center"><img src="docs/media/psart/lineRun.gif" alt="A pencil-style scan: original, Photoshop Color Range on the black ink (simulated) with thin, broken lines, PSArt solid vector lines; whole figure, then zoomed" width="720"></p>
 
 **How to use**
 
@@ -157,7 +157,7 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 <p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines on a skirt pleat, zoomed in: lines of uneven weight become even" width="720"></p>
 
-<p align="center"><img src="docs/media/psart/joinRun.gif" alt="Join line: a 22 px gap in a hair line is bridged along the line" width="720"></p>
+<p align="center"><img src="docs/media/psart/joinRun.gif" alt="Join line: 130 px erased from a leg line, lassoed, and joined back along the curve" width="720"></p>
 
 **How to use**
 
@@ -196,7 +196,7 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 *Lasso roughly; get a clean selection that hugs your lines.*
 
-<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="A rough lasso inside a jacket becomes a selection that hugs the lines; the jacket is then painted" width="720"></p>
+<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="A sloppy lasso over a jacket becomes a selection that hugs the lines; the jacket is then filled" width="720"></p>
 
 **How to use**
 
@@ -234,9 +234,9 @@ Clean AI images, remove plain backgrounds, smooth painted lines.
 
 #### Remove background
 
-*Erase a plain background with a smooth edge, gaps included.*
+*One click erases a plain background, with a smooth edge, gaps included.*
 
-<p align="center"><img src="docs/media/psart/bgRun.gif" alt="Remove background on a girl over a gradient; close-ups against Photoshop Magic Wand (simulated) at the arm gap and the hair" width="720"></p>
+<p align="center"><img src="docs/media/psart/bgRun.gif" alt="Remove background on a girl in a raincoat: usual steps by hand against one click, then a close-up of the edge, hard pixel edge (simulated) against PSArt" width="720"></p>
 
 **How to use**
 
