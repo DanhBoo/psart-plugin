@@ -130,6 +130,10 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 <p align="center"><img src="docs/media/psart/lineRun.gif" alt="A pencil-style scan: original, Photoshop Color Range on the black ink (simulated) with thin, broken lines, PSArt solid vector lines; whole figure, then zoomed" width="720"></p>
 
+<p align="center"><img src="docs/media/psart/lineLayers.gif" alt="The 4 layers Extract Lines makes, Line core, Line faint, Line body and Line edge, shown one at a time in a Layers panel (drawn), then all 4 together; whole figure and a zoom on the hair" width="720"></p>
+
+Lines come out as 4 layers, split by how dark the ink is: turn each on or off, or recolor it.
+
 **How to use**
 
 1. Pick the line layer in **Lineart**.
