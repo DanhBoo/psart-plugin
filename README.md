@@ -4,7 +4,7 @@
 
 <p align="center">Photoshop panels for illustrators: PSArt cleans, splits and redraws your art; YourManager tracks every PSD version.</p>
 
-<p align="center"><img src="docs/media/psart/hero.png" alt="Results of PSArt tools: separated layer, vector lines, cleaned AI image, removed background, perspective grid, smoothed line" width="820"></p>
+<p align="center"><img src="docs/media/psart/hero.png" alt="Results of PSArt tools on demo pictures: separated layer, vector lines, removed background, selection painted, curved perspective grid, part edited with AI" width="820"></p>
 
 - **Split** a painting into layers in seconds
 - **Trace** pixel lineart into sharp vector lines
@@ -56,7 +56,7 @@ Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 
 | Tool | Tab | What it does |
 |---|---|---|
-| [Separate to New Layer](#psart-sepcard) | PSArt · Layer Tools | Lift a lassoed part onto its own layer; the gap behind it is filled. |
+| [Separate to New Layer](#psart-sepcard) | PSArt · Layer Tools | Lift a character onto its own layer; the scene behind it is filled in. |
 | [Extract Lines](#psart-linecard) | PSArt · Lineart | Turn pixel lineart into vector layers that stay sharp at any zoom. |
 | [Repair](#psart-repaircard) | PSArt · Lineart | Join broken strokes and smooth wobbly ones. |
 | [Line weight **Beta**](#psart-weightcard) | PSArt · Lineart | Make lines thinner or thicker in one click. |
@@ -98,9 +98,9 @@ Cut a part of a layer onto its own layer, export / replace images.
 
 #### Separate to New Layer
 
-*Lift a lassoed part onto its own layer; the gap behind it is filled.*
+*Lift a character onto its own layer; the scene behind it is filled in.*
 
-<p align="center"><img src="docs/media/psart/sepRun.gif" alt="A lassoed character becomes its own layer; the hole it leaves is filled from the background around it" width="720"></p>
+<p align="center"><img src="docs/media/psart/sepRun.gif" alt="A girl lassoed in a café street scene moves to her own layer; the wall behind her is filled in" width="720"></p>
 
 **How to use**
 
@@ -128,7 +128,7 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 *Turn pixel lineart into vector layers that stay sharp at any zoom.*
 
-<p align="center"><img src="docs/media/psart/lineRun.gif" alt="Pixelated lines at 4x zoom become smooth vector lines" width="720"></p>
+<p align="center"><img src="docs/media/psart/lineRun.gif" alt="A pencil-style scan: original, Photoshop Magic Wand (simulated) keeping paper and white halos, PSArt vector lines; whole figure, then zoomed" width="720"></p>
 
 **How to use**
 
@@ -155,9 +155,9 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 *Join broken strokes and smooth wobbly ones.*
 
-<p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines, zoomed in: a wobbly, uneven line becomes a smooth, even stroke" width="720"></p>
+<p align="center"><img src="docs/media/psart/fixRun.gif" alt="Smooth Lines on a skirt pleat, zoomed in: lines of uneven weight become even" width="720"></p>
 
-<p align="center"><img src="docs/media/psart/joinRun.gif" alt="Join line bridges a gap in a line" width="720"></p>
+<p align="center"><img src="docs/media/psart/joinRun.gif" alt="Join line: a 22 px gap in a hair line is bridged along the line" width="720"></p>
 
 **How to use**
 
@@ -196,7 +196,7 @@ Redraw raster lines as vector layers, repair breaks, change line weight, select 
 
 *Lasso roughly; get a clean selection that hugs your lines.*
 
-<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="A rough lasso over part of a region grows to the lines around it" width="720"></p>
+<p align="center"><img src="docs/media/psart/fillSelect.gif" alt="A rough lasso inside a jacket becomes a selection that hugs the lines; the jacket is then painted" width="720"></p>
 
 **How to use**
 
@@ -224,8 +224,6 @@ Clean AI images, remove plain backgrounds, smooth painted lines.
 
 *Calm AI image noise: steady line color, smooth edges, clean colors.*
 
-<p align="center"><img src="docs/media/psart/cleanRun.gif" alt="Before and after Clean on an AI face" width="720"></p>
-
 **How to use**
 
 1. Select the AI image layer.
@@ -238,7 +236,7 @@ Clean AI images, remove plain backgrounds, smooth painted lines.
 
 *Erase a plain background with a smooth edge, gaps included.*
 
-<p align="center"><img src="docs/media/psart/bgRun.gif" alt="A grey background fades to transparent around a shop stall" width="720"></p>
+<p align="center"><img src="docs/media/psart/bgRun.gif" alt="Remove background on a girl over a gradient; close-ups against Photoshop Magic Wand (simulated) at the arm gap and the hair" width="720"></p>
 
 **How to use**
 
@@ -286,7 +284,7 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 *Draw a few rough strokes; get an even perspective grid.*
 
-<p align="center"><img src="docs/media/psart/perspMake.gif" alt="Five rough strokes become a fan of grid lines" width="720"></p>
+<p align="center"><img src="docs/media/psart/perspCurved.gif" alt="A fisheye street photo: 4 rough strokes on its edges give a curved grid that follows the bent verticals" width="720"></p>
 
 **How to use**
 
@@ -327,6 +325,8 @@ Make perspective grids from rough strokes and redraw sketches along them.
 #### Export & Replace
 
 *Export a selection as PNG, edit it anywhere, drop it back in the same frame.*
+
+<p align="center"><img src="docs/media/psart/editAI.gif" alt="Lasso part of a painting, export it as PNG, recolor it with AI, Replace puts it back in the same frame" width="720"></p>
 
 **How to use**
 
