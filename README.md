@@ -64,17 +64,17 @@ Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 | [Clean AI Image **Beta**](#psart-cleancard) | PSArt · Clean | Calm AI image noise: steady line color, smooth edges, clean colors. |
 | [Remove background](#psart-bgcard) | PSArt · Clean | One click erases a plain background, with a smooth edge, gaps included. |
 | [Smooth Color Lines **Beta**](#psart-cfixcard) | PSArt · Clean | Smooth the lines of a color painting; colors stay put. |
-| [Perspective Grid](#psart-gridcard) | PSArt · Perspective | Draw a few rough strokes; get an even perspective grid. |
+| [Perspective Grid](#psart-gridcard) | PSArt · Perspective | Two rough strokes on a blank layer give a perspective grid to paint on. |
 | [Redraw on grid](#psart-redrawcard) | PSArt · Perspective | Redraw a loose sketch straight along your grid, with true perspective circles. |
-| [Export & Replace](#psart-replacecard) | PSArt · Layer Tools | Export a selection as PNG, edit it anywhere, drop it back in the same frame. |
+| [Export & Replace](#psart-replacecard) | PSArt · Layer Tools | Export a layer to PNG, edit it anywhere, Replace puts it back in place. |
 | [Codex](#psart-codex) | PSArt · Codex | Chat with Codex inside Photoshop; send the selection, drop results back. |
+| [Find PSD / PSB from image / PSD](#ym-find) | YourManager · Find | Drop an exported JPG or PNG; open its PSD in one click. |
 | [Projects](#ym-projects) | YourManager · Projects | Save as usual; each new version lands on top of its project. |
-| [Untracked](#ym-untracked) | YourManager · Projects | Every scanned PSD shows up, even outside a project; Track makes it one. |
+| [Drag and drop](#ym-drag) | YourManager · Projects | Sort, merge, add. |
+| [Untracked](#ym-untracked) | YourManager · Projects | Files in no project: click **All**, scroll to the bottom. |
 | [ID inside the file](#ym-file_id) | YourManager · Projects | Rename, copy or move a PSD; it still knows its project and version. |
-| [Find PSD / PSB from image / PSD](#ym-find) | YourManager · Find | Drop an exported JPG or PNG; get its PSD and the newest version. |
 | [Action history](#ym-history) | YourManager · History | Changed your mind? Click any step to go back. |
 | [Settings](#ym-settings) | YourManager · Settings | Choose what gets scanned, the language, and reset data. |
-| [Ask when saving an old version](#ym-save_ask) | YourManager · Settings | Saved an older version? One click moves it to the top. |
 
 <a id="psart"></a>
 
@@ -286,15 +286,17 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 #### Perspective Grid
 
-*Draw a few rough strokes; get an even perspective grid.*
+*Two rough strokes on a blank layer give a perspective grid to paint on.*
 
-<p align="center"><img src="docs/media/psart/perspCurved.gif" alt="A fisheye street photo: 4 rough strokes on its edges give a curved grid that follows the bent verticals" width="720"></p>
+<p align="center"><img src="docs/media/psart/perspMake.gif" alt="A blank canvas: 2 rough strokes, Make grid (Straight) gives a 1-point grid, then a hallway painted on it" width="720"></p>
+
+<p align="center"><img src="docs/media/psart/perspCurved.gif" alt="A blank canvas: 2 rough curves, Make grid (Curved) gives bent horizontals, then a street painted on them" width="720"></p>
 
 **How to use**
 
-1. Draw rough strokes on a new layer.
-2. Choose **Type** and **Density**.
-3. Click **Make grid**.
+1. Draw 2 rough strokes on a new layer.
+2. Choose **Type** (Straight or Curved) and **Density**.
+3. Click **Make grid**, then paint along it.
 
 <details><summary>Options / Tips & limits</summary>
 
@@ -314,7 +316,7 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 *Redraw a loose sketch straight along your grid, with true perspective circles.*
 
-<p align="center"><img src="docs/media/psart/perspCircle.gif" alt="A wobbly sketched circle becomes a clean perspective ellipse" width="720"></p>
+<p align="center"><img src="docs/media/psart/perspCircle.gif" alt="On a hallway grid, a rough circle on the floor and one on the wall become ellipses that fit their grid cell" width="720"></p>
 
 **How to use**
 
@@ -328,15 +330,15 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 #### Export & Replace
 
-*Export a selection as PNG, edit it anywhere, drop it back in the same frame.*
+*Export a layer to PNG, edit it anywhere, Replace puts it back in place.*
 
-<p align="center"><img src="docs/media/psart/editAI.gif" alt="Lasso part of a painting, export it as PNG, recolor it with AI, Replace puts it back in the same frame" width="720"></p>
+<p align="center"><img src="docs/media/psart/editAI.gif" alt="A picture in layers: lasso and Export save a PNG to a folder; edited, Replace puts it back; or send it in the Codex tab and right-click the answer, Replace" width="720"></p>
 
 **How to use**
 
-1. Choose an **Export folder** (gear button).
-2. Click **Export**.
-3. Edit the PNG, choose it in the box, press **Replace**.
+1. Select an area, click **Export**: a PNG in your folder (no AI needed).
+2. Edit the PNG in any app or AI.
+3. Choose it, press **Replace**: it lands in the same frame.
 
 <details><summary>Options / Tips & limits</summary>
 
@@ -348,7 +350,7 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 **Tips & limits**
 
-- Handy for AI editing: the result lands pixel-aligned.
+- Choose the **Export folder** with the gear button.
 
 </details>
 
@@ -362,7 +364,7 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 1. Click **Connect**.
 2. Select an area, type your message.
-3. Press **Send**; right-click an image > **Replace**.
+3. Press **Send**; right-click the image you get back > **Replace**.
 
 <details><summary>Tips & limits</summary>
 
@@ -380,17 +382,39 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 ## YourManager 0.4.0
 
-**Every version of your PSD files in one list per project, even after rename, copy or move.**
+**Drop an exported image; YourManager opens the PSD it came from.**
 
-A small project code is saved inside each PSD, so the panel still knows the file after you rename or move it. Everything stays on your PC.
+Each PSD keeps a small ID inside it, so the panel still finds it after you rename, copy or move it. Everything stays on your PC.
 
 <a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/YourManager_0.4.0.zip"><img alt="Download YourManager 0.4.0" src="https://img.shields.io/badge/Download-YourManager%200.4.0-2ea44f?style=for-the-badge"></a>
 
-### Projects
+### Find
 
-<p align="center"><img src="docs/media/ym/panel_projects.png" alt="Projects tab: four demo projects, Character expanded with versions v1 to v4" width="360"></p>
+<a id="ym-find"></a>
+
+#### Find PSD / PSB from image / PSD
+
+*Drop an exported JPG or PNG; open its PSD in one click.*
+
+<p align="center"><img src="docs/media/ym/messy_to_psd.gif" alt="Badly named folders in Explorer; char_FINAL.jpg dropped on Find; Open; char_new_FIX.psd opens in Photoshop and its row is picked in Projects" width="820"></p>
 
 <p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
+
+**Scan IDs** reads the ID inside every PSD and image in your scan folders once, so a dropped image finds its PSD. **Rescan IDs** reads only new or changed files; YourManager does it by itself when you open Find and the last scan is over 10 minutes old.
+
+**How to use**
+
+1. **Settings**: add the folders that hold your PSDs.
+2. **Find**: click **Scan IDs** once.
+3. Drop an image on the box, click **Open**.
+
+<details><summary>Tips & limits</summary>
+
+- Works best on images exported from Photoshop.
+
+</details>
+
+### Projects
 
 <a id="ym-projects"></a>
 
@@ -404,9 +428,8 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 **How to use**
 
-1. Open a PSD and save it.
-2. Save As a new name for each version.
-3. In **Projects**, double-click a version to open it.
+1. Save As a new name for each version.
+2. Double-click a version to open it.
 
 <details><summary>Options / Tips & limits</summary>
 
@@ -420,25 +443,33 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 </details>
 
+<a id="ym-drag"></a>
+
+#### Drag and drop
+
+*Sort, merge, add.*
+
+<p align="center"><img src="docs/media/ym/drag_projects.gif" alt="Drag Logo above Character; drop Landscape on Poster (merged); All: drag mug_icon from Untracked onto Logo (added)" width="360"></p>
+
+<p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
+
 <a id="ym-untracked"></a>
 
 #### Untracked
 
-*Every scanned PSD shows up, even outside a project; Track makes it one.*
+*Files in no project: click **All**, scroll to the bottom.*
 
-<p align="center"><img src="docs/media/ym/untracked_track.gif" alt="Projects > All: tree_color under Untracked (grey name) > right-click > Track > it is a project on top" width="360"></p>
+<p align="center"><img src="docs/media/ym/untracked_track.gif" alt="Projects > All > scroll down to Untracked > right-click tree_color > Track > it is a project on top" width="360"></p>
 
 <p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
 
 **How to use**
 
-1. In **Projects**, click **All**.
-2. Right-click a group under **Untracked**.
-3. Click **Track**: it becomes a project on top.
+1. Right-click a group under **Untracked**.
+2. Click **Track**: it becomes a project.
 
 <details><summary>Tips & limits</summary>
 
-- Drag a group onto a project to add it; drag a project onto another to merge.
 - **Untrack** on a project sends it back to Untracked.
 
 </details>
@@ -452,40 +483,6 @@ A small project code is saved inside each PSD, so the panel still knows the file
 <p align="center"><img src="docs/media/ym/rename_keeps_id.gif" alt="character_v02.psd renamed in Explorer, then opened: the row becomes character_lineart.psd, still v2" width="360"></p>
 
 <p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
-
-**How to use**
-
-1. Rename or move a PSD in Explorer.
-2. Open it in Photoshop.
-3. Its row in **Projects** follows it.
-
-### Find
-
-<p align="center"><img src="docs/media/ym/panel_find.png" alt="Find tab after dropping an exported JPG: three matching PSD files" width="360"></p>
-
-<p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
-
-<a id="ym-find"></a>
-
-#### Find PSD / PSB from image / PSD
-
-*Drop an exported JPG or PNG; get its PSD and the newest version.*
-
-<p align="center"><img src="docs/media/ym/find_from_image.gif" alt="Drop character_export.jpg on Find: three PSD files found, Open jumps to character_v03.psd in Projects" width="360"></p>
-
-<p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
-
-**How to use**
-
-1. Click **Scan IDs: PSD / PSB / images** once.
-2. Drop an image or PSD on the box.
-3. Click **Open** on a result.
-
-<details><summary>Tips & limits</summary>
-
-- Works best on images exported from Photoshop.
-
-</details>
 
 ### History
 
@@ -501,15 +498,10 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 **How to use**
 
-1. Open **History**.
-2. Click a row to go back to it.
-3. Click a faded row to redo.
+1. Click a row to go back to it.
+2. Click a faded row to redo.
 
 ### Settings
-
-<p align="center"><img src="docs/media/ym/panel_settings.png" alt="Settings tab with all four sections open" width="360"></p>
-
-<p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
 
 <a id="ym-settings"></a>
 
@@ -517,36 +509,15 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 *Choose what gets scanned, the language, and reset data.*
 
-**How to use**
+<details><summary>Options / Tips & limits</summary>
 
-1. Open **Settings**.
-2. Add scan folders; pick file types.
-3. Pick the language.
+**Options**
 
-<details><summary>Tips & limits</summary>
+- **Notifications > Ask on save** - Saving a version that is not on top asks: **Yes, move to top** or **No**.
+
+**Tips & limits**
 
 - Delete `%APPDATA%\YourManager` to uninstall completely.
-
-</details>
-
-<a id="ym-save_ask"></a>
-
-#### Ask when saving an old version
-
-*Saved an older version? One click moves it to the top.*
-
-<p align="center"><img src="docs/media/ym/ask_on_save.png" alt="Dialog: Is this the newest version? - No / Yes, move to top" width="400"></p>
-
-<p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
-
-**How to use**
-
-1. Save a version that is not on top.
-2. Click **Yes, move to top** or **No**.
-
-<details><summary>Tips & limits</summary>
-
-- Turn the question back on in **Settings > Notifications**.
 
 </details>
 
@@ -566,9 +537,7 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 - **All** also lists **Untracked**: scanned files in no project, grouped by source file. **Track** makes one a project. ([→](#ym-untracked))
 
-  <img src="docs/media/ym/untracked_track.gif" alt="Projects > All > Untracked > Track" width="480">
-
-- Drag a group or file onto a project to add it; drag a project onto another to merge. ([→](#ym-untracked))
+- Drag a group or file onto a project to add it; drag a project onto another to merge. ([→](#ym-drag))
 
 - **Not in this project** and **Untrack** send files back to Untracked (undo in History). ([→](#ym-projects))
 
