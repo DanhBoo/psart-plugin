@@ -1,4 +1,4 @@
-﻿YourManager 0.3.3 - CÀI ĐẶT (bản này chỉ có plugin Photoshop; Windows; Photoshop 2023 bản 24.0 trở lên)
+﻿YourManager 0.4.0 - CÀI ĐẶT (bản này chỉ có plugin Photoshop; Windows; Photoshop 2023 bản 24.0 trở lên)
 
 PHOTOSHOP
 1. Tắt Photoshop. Đã cài bản cũ thì xoá thư mục cũ trong Plug-ins trước (cùng ID).
@@ -14,7 +14,7 @@ Dữ liệu dự án nằm ở %APPDATA%\YourManager (xoá nếu muốn gỡ s�
 Cách dùng: HUONG_DAN.txt (tiếng Việt), README.txt (tiếng Anh).
 
 ---------------------------------------------------------------- ENGLISH
-YourManager 0.3.3 - INSTALL (Photoshop plugin only; Windows; Photoshop 2023 / 24.0 or later)
+YourManager 0.4.0 - INSTALL (Photoshop plugin only; Windows; Photoshop 2023 / 24.0 or later)
 
 PHOTOSHOP
 1. Close Photoshop. Remove any older copy from Plug-ins first (same plugin ID).

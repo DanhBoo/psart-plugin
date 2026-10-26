@@ -11,15 +11,15 @@
 - **Clean** AI images and remove plain backgrounds
 - **Find** the PSD behind any exported image
 
-<p align="center"><a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/PSArt_1.5.1.zip"><img alt="Download PSArt 1.5.1" src="https://img.shields.io/badge/Download-PSArt%201.5.1-2ea44f?style=for-the-badge"></a> <a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/YourManager_0.3.3.zip"><img alt="Download YourManager 0.3.3" src="https://img.shields.io/badge/Download-YourManager%200.3.3-1f6feb?style=for-the-badge"></a></p>
+<p align="center"><a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/PSArt_1.5.2.zip"><img alt="Download PSArt 1.5.2" src="https://img.shields.io/badge/Download-PSArt%201.5.2-2ea44f?style=for-the-badge"></a> <a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/YourManager_0.4.0.zip"><img alt="Download YourManager 0.4.0" src="https://img.shields.io/badge/Download-YourManager%200.4.0-1f6feb?style=for-the-badge"></a></p>
 
 Windows only, Photoshop 2023 or later. Pictures come from the plugins' own engines on test images.
 
 ## Install
 
-### PSArt 1.5.1
+### PSArt 1.5.2
 
-Download: **[PSArt_1.5.1.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/PSArt_1.5.1.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
+Download: **[PSArt_1.5.2.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/PSArt_1.5.2.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
 
 1. Close Photoshop and delete any older copy in `Plug-ins` ("PSArtCodex", "PSArt Codex" or "PSArt").
 2. Right-click the zip > Properties > tick **Unblock** > OK, then extract it.
@@ -28,9 +28,9 @@ Download: **[PSArt_1.5.1.zip](https://github.com/DanhBoo/psart-plugin/releases/d
 
 Full install steps: [CAI_DAT_PSArt.txt](CAI_DAT_PSArt.txt)
 
-### YourManager 0.3.3
+### YourManager 0.4.0
 
-Download: **[YourManager_0.3.3.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/YourManager_0.3.3.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
+Download: **[YourManager_0.4.0.zip](https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/YourManager_0.4.0.zip)** · [All versions](https://github.com/DanhBoo/psart-plugin/releases)
 
 1. Close Photoshop; delete any older YourManager in Plug-ins.
 2. Copy the `ptsplugin` folder from the zip into `C:\Program Files\Adobe\Adobe Photoshop <year>\Plug-ins\`.
@@ -69,6 +69,7 @@ Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 | [Export & Replace](#psart-replacecard) | PSArt · Layer Tools | Export a selection as PNG, edit it anywhere, drop it back in the same frame. |
 | [Codex](#psart-codex) | PSArt · Codex | Chat with Codex inside Photoshop; send the selection, drop results back. |
 | [Projects](#ym-projects) | YourManager · Projects | Save as usual; each new version lands on top of its project. |
+| [Untracked](#ym-untracked) | YourManager · Projects | Every scanned PSD shows up, even outside a project; Track makes it one. |
 | [ID inside the file](#ym-file_id) | YourManager · Projects | Rename, copy or move a PSD; it still knows its project and version. |
 | [Find PSD / PSB from image / PSD](#ym-find) | YourManager · Find | Drop an exported JPG or PNG; get its PSD and the newest version. |
 | [Action history](#ym-history) | YourManager · History | Changed your mind? Click any step to go back. |
@@ -77,13 +78,13 @@ Full install steps: [CAI_DAT_YourManager.txt](CAI_DAT_YourManager.txt)
 
 <a id="psart"></a>
 
-## PSArt 1.5.1
+## PSArt 1.5.2
 
 **One Photoshop panel: split layers, vector lineart, clean AI images, perspective grids, Codex chat.**
 
 Heavy tools run in the background. Hover any control for a short Help box.
 
-<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/PSArt_1.5.1.zip"><img alt="Download PSArt 1.5.1" src="https://img.shields.io/badge/Download-PSArt%201.5.1-2ea44f?style=for-the-badge"></a>
+<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/PSArt_1.5.2.zip"><img alt="Download PSArt 1.5.2" src="https://img.shields.io/badge/Download-PSArt%201.5.2-2ea44f?style=for-the-badge"></a>
 
 ### Layer Tools
 
@@ -373,13 +374,13 @@ Make perspective grids from rough strokes and redraw sketches along them.
 
 <a id="ym"></a>
 
-## YourManager 0.3.3
+## YourManager 0.4.0
 
 **Every version of your PSD files in one list per project, even after rename, copy or move.**
 
 A small project code is saved inside each PSD, so the panel still knows the file after you rename or move it. Everything stays on your PC.
 
-<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26/YourManager_0.3.3.zip"><img alt="Download YourManager 0.3.3" src="https://img.shields.io/badge/Download-YourManager%200.3.3-2ea44f?style=for-the-badge"></a>
+<a href="https://github.com/DanhBoo/psart-plugin/releases/download/v2026.10.26b/YourManager_0.4.0.zip"><img alt="Download YourManager 0.4.0" src="https://img.shields.io/badge/Download-YourManager%200.4.0-2ea44f?style=for-the-badge"></a>
 
 ### Projects
 
@@ -412,6 +413,29 @@ A small project code is saved inside each PSD, so the panel still knows the file
 **Tips & limits**
 
 - Renaming or moving an open file: the plugin saves, closes and reopens it.
+
+</details>
+
+<a id="ym-untracked"></a>
+
+#### Untracked
+
+*Every scanned PSD shows up, even outside a project; Track makes it one.*
+
+<p align="center"><img src="docs/media/ym/untracked_track.gif" alt="Projects > All: tree_color under Untracked (grey name) > right-click > Track > it is a project on top" width="360"></p>
+
+<p align="center"><sub>mock-up, not a Photoshop screenshot</sub></p>
+
+**How to use**
+
+1. In **Projects**, click **All**.
+2. Right-click a group under **Untracked**.
+3. Click **Track**: it becomes a project on top.
+
+<details><summary>Tips & limits</summary>
+
+- Drag a group onto a project to add it; drag a project onto another to merge.
+- **Untrack** on a project sends it back to Untracked.
 
 </details>
 
@@ -526,15 +550,25 @@ A small project code is saved inside each PSD, so the panel still knows the file
 
 ## What's new
 
-### PSArt 1.5.1
+### PSArt 1.5.2
 
-- Lighter while you work: the Codex bridge starts only when you open the Codex tab. ([→](#psart-codex))
+- Join line follows the line across a dashed gap instead of jumping to a nearby line. ([→](#psart-repaircard))
 
-- Fixed: strokes painted while Fill was working could be wiped.
+- A closed or collapsed panel does nothing in the background.
 
-### YourManager 0.3.3
+### YourManager 0.4.0
 
-- Lighter while you work: the image finder closes itself after 10 minutes idle. ([→](#ym-find))
+- Newest project on top: projects are sorted by the day they were created. ([→](#ym-projects))
+
+- **All** also lists **Untracked**: scanned files in no project, grouped by source file. **Track** makes one a project. ([→](#ym-untracked))
+
+  <img src="docs/media/ym/untracked_track.gif" alt="Projects > All > Untracked > Track" width="480">
+
+- Drag a group or file onto a project to add it; drag a project onto another to merge. ([→](#ym-untracked))
+
+- **Not in this project** and **Untrack** send files back to Untracked (undo in History). ([→](#ym-projects))
+
+- Find: opening a file that is in no project makes it a project on top, with its whole group. ([→](#ym-find))
 
 ## FAQ
 
